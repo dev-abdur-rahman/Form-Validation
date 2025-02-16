@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer components{
+    .input{
+        @apply bg-[#C1C242]/70 rounded-lg px-4 py-1.5 font-black text-[#000000];
+    }
+    .btn{
+        @apply w-38 py-2 rounded-lg mx-auto text-black font-bold;
+    }
+    .btn-div{
+        @apply mb-14  flex flex-col justify-center items-center gap-1.5;
+    }
+}
